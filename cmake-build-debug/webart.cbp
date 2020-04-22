@@ -83,6 +83,9 @@
 		<Unit filename="E:/CLionProjects/webart/main.cpp">
 			<Option target="webart"/>
 		</Unit>
+		<Unit filename="E:/CLionProjects/webart/next.cpp">
+			<Option target="webart"/>
+		</Unit>
 		<Unit filename="E:/CLionProjects/webart/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

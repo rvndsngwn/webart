@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/CLionProjects/webart/main.cpp" "E:/CLionProjects/webart/cmake-build-debug/CMakeFiles/webart.dir/main.cpp.obj"
+  "E:/CLionProjects/webart/next.cpp" "E:/CLionProjects/webart/cmake-build-debug/CMakeFiles/webart.dir/next.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

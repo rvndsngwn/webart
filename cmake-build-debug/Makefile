@@ -149,6 +149,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\webart.dir\build.make CMakeFiles/webart.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+next.obj: next.cpp.obj
+
+.PHONY : next.obj
+
+# target to build an object file
+next.cpp.obj:
+	$(MAKE) -f CMakeFiles\webart.dir\build.make CMakeFiles/webart.dir/next.cpp.obj
+.PHONY : next.cpp.obj
+
+next.i: next.cpp.i
+
+.PHONY : next.i
+
+# target to preprocess a source file
+next.cpp.i:
+	$(MAKE) -f CMakeFiles\webart.dir\build.make CMakeFiles/webart.dir/next.cpp.i
+.PHONY : next.cpp.i
+
+next.s: next.cpp.s
+
+.PHONY : next.s
+
+# target to generate assembly for a file
+next.cpp.s:
+	$(MAKE) -f CMakeFiles\webart.dir\build.make CMakeFiles/webart.dir/next.cpp.s
+.PHONY : next.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... next.obj
+	@echo ... next.i
+	@echo ... next.s
 .PHONY : help
 
 

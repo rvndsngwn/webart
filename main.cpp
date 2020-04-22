@@ -1,5 +1,6 @@
 #include <iostream>
 #include <conio.h>
+
 using namespace std;
 
 // ! How to get data from users--
@@ -144,22 +145,32 @@ int main(){
 
 //TODO this is example of class --
 
-class Complex
-{
+class Complex {
     // private:  isme ham private na bhi likhe to a,b variable private hi rhe ge, or hamara code at it is kam kre ga jese ki structure me kam kar rha tha
-    int a,b;
+    int a, b;
 public:  // isme hame jis member ko public krna h uske upr public likhna jruri h kunki by default class ke members private hoten hain
-    void set_data(int y, int x){
-        a=y; b=x;
+    void set_data(int y, int x) {
+        a = y;
+        b = x;
     };
-    void show_data(){
-        cout<<"\na "<<a<<","<<"b "<<b;
+
+    void show_data() {
+        cout << "\na " << a << "," << "b " << b;
+    }
+
+    Complex add(Complex c) {
+        Complex temp;
+        temp.a = a + c.a;
+        temp.b = b + c.b;
+        return (temp);
     }
 };
 
-int main(){
-    Complex c1; //! class me bane data type ko variable na khke object kha jayega. c1 is an object
-    c1.set_data(2,4);
-    c1.show_data();
+int main() {
+    Complex c1, c2, c3; //! class me bane data type ko variable na khke object kha jayega. c1 is an object
+    c1.set_data(2, 4);
+    c2.set_data(5, 6);
+    c3=c1.add(c2);
+    c3.show_data();
     getch();
 }
