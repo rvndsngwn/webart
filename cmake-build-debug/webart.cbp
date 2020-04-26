@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/CLionProjects/webart/constructor.cpp">
+			<Option target="webart"/>
+		</Unit>
 		<Unit filename="E:/CLionProjects/webart/main.cpp">
 			<Option target="webart"/>
 		</Unit>

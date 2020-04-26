@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-E:/CLionProjects/webart/main.cpp
+E:/CLionProjects/webart/constructor.cpp
 iostream
 -
 conio.h
+-
+
+E:/CLionProjects/webart/next.cpp
+conio.h
+-
+iostream
 -
 

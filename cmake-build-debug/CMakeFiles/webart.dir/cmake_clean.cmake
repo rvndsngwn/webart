@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/webart.dir/constructor.cpp.obj"
   "CMakeFiles/webart.dir/main.cpp.obj"
   "CMakeFiles/webart.dir/next.cpp.obj"
   "libwebart.dll.a"

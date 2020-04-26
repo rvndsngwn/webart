@@ -3,4 +3,4 @@ project(webart)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(webart main.cpp next.cpp)
+add_executable(webart main.cpp next.cpp constructor.cpp)

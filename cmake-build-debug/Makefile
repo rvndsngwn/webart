@@ -122,6 +122,33 @@ webart/fast:
 	$(MAKE) -f CMakeFiles\webart.dir\build.make CMakeFiles/webart.dir/build
 .PHONY : webart/fast
 
+constructor.obj: constructor.cpp.obj
+
+.PHONY : constructor.obj
+
+# target to build an object file
+constructor.cpp.obj:
+	$(MAKE) -f CMakeFiles\webart.dir\build.make CMakeFiles/webart.dir/constructor.cpp.obj
+.PHONY : constructor.cpp.obj
+
+constructor.i: constructor.cpp.i
+
+.PHONY : constructor.i
+
+# target to preprocess a source file
+constructor.cpp.i:
+	$(MAKE) -f CMakeFiles\webart.dir\build.make CMakeFiles/webart.dir/constructor.cpp.i
+.PHONY : constructor.cpp.i
+
+constructor.s: constructor.cpp.s
+
+.PHONY : constructor.s
+
+# target to generate assembly for a file
+constructor.cpp.s:
+	$(MAKE) -f CMakeFiles\webart.dir\build.make CMakeFiles/webart.dir/constructor.cpp.s
+.PHONY : constructor.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -185,6 +212,9 @@ help:
 	@echo ... webart
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... constructor.obj
+	@echo ... constructor.i
+	@echo ... constructor.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
