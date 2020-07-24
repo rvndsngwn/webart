@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-E:/CLionProjects/webart/constructor.cpp
+/home/arvind/CLionProjects/webart/main.cpp
+iostream
+-
+iostream
+-
+iostream
+-
+iostream
+-
+iostream
+-
 iostream
 -
 conio.h
--
-
-E:/CLionProjects/webart/next.cpp
-conio.h
--
-iostream
 -
 
